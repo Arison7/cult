@@ -39,7 +39,9 @@ class UserLoginTest extends TestCase
             'password' => 'wrongpassword',
         ]);
 
-        $response->assertSessionHas('status');
+        //we are checking for error in the session since this is the way 
+        //an error message is returned back to the user in my application (basically session flasing)
+        $response->assertSessionHas('error');
         $this->assertGuest();
     }
 }
