@@ -28,9 +28,12 @@ jobs:
       with:
         php-version: '8.0'
 
+    - name: update composer 
+      run: composer update
+      
     - name: Install Dependencies
       run: composer install
-
+    
     - name: Copy .env file
       run: cp .env.example .env
 
