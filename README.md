@@ -62,9 +62,9 @@ System Tests:
 
 Unit Tests: 
 
-    Functionality: Validate that the login form captures the correct data and sends it to the backend. 
+- Functionality: Validate that the login form captures the correct data and sends it to the backend. 
 
-    Functionality: Ensure backend authentication logic for valid credentials. 
+- Functionality: Ensure backend authentication logic for valid credentials. 
 
 Evaluation 
 
@@ -104,7 +104,8 @@ Extra tests can could be done and I think would also be important would be testi
 
  
 
- 
+ ![image](https://github.com/Arison7/cult/assets/89223744/1bae8cae-488a-47e0-92a8-3f8a545ababf)
+
 
  
 
